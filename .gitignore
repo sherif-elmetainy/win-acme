@@ -197,3 +197,5 @@ FakesAssemblies/
 *.opt
 /build/temp
 /build/artifacts
+
+/dist/

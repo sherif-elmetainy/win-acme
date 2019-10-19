@@ -29,7 +29,7 @@ function Get-MSBuild-Path {
 	
     if (Test-Path $vs16key) {
 		# TODO: We are supposed to use vswhere here I think
-        $vs2019path = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\msbuild.exe"
+        $vs2019path = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\msbuild.exe"
 		if (Test-Path $vs2019path) {
 			$msbuildPath = $vs2019path
 		}
